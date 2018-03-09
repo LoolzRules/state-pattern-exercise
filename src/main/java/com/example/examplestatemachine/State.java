@@ -1,7 +1,7 @@
 package com.example.examplestatemachine;
 
 public abstract class State {
-    protected StateContext sc;
+    protected StateContext context;
     protected boolean accept = false;
     
     public void actionA() {}

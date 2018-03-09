@@ -13,6 +13,14 @@ public class StateMachineTest {
     public void setUp() {
         sc = new StateContext();
     }
+
+    /*
+     * Test Sequence: none
+     */
+    @Test
+    public void test_0() {
+        assertFalse(sc.isAccept());
+    }
     
     /*
      * Test Sequence: A
